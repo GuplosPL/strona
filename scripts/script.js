@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             localStorage.setItem('userAnswer', selectedAnswer);
 
-            const webhookUrl = 'TUTAJ WKLEJASZ ADRES WEBHOOKA KTORY SKOPIOWALES';
+            const webhookUrl = 'https://canary.discord.com/api/webhooks/1328736316569026571/IIZi7sfWDz4U6O-bjciXrMdwlVibMd_Uz3woiOb8sH3P2YxgOFY0BLW-H-d9PxkVR7sv';
             fetch(webhookUrl, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
